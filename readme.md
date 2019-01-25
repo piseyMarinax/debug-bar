@@ -3,6 +3,10 @@
 
 https://laravel-news.com/laravel-debugbar
 
+In your Laravel 5 project require the package:
+
+composer require barryvdh/laravel-debugbar
+
 Next open config/app.php and inside the ‘providers’ array add:
 
 'Barryvdh\Debugbar\ServiceProvider',
