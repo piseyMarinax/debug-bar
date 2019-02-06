@@ -21,6 +21,6 @@ public function register()
 
 -------------
 
-Finally, if you wish to add the facades add this to the ‘aliases’ array:
+Finally,in config/app.php if you wish to add the facades add this to the ‘aliases’ array:
 
 'Debugbar' => 'Barryvdh\Debugbar\Facade',
